@@ -1,0 +1,12 @@
+# Folder dependencies
+node_modules
+
+# Folder hasil build
+dist
+
+# File konfigurasi lokal (opsional)
+.env
+*.log
+
+# File lock npm (boleh disesuaikan)
+package-lock.json
