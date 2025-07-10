@@ -3,10 +3,10 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
-    outDir: 'dist' // Folder output hasil build
+    outDir: 'dist'
   },
   server: {
-    port: 3000,     // Port saat `npm run dev`
-    open: true      // Otomatis buka browser
+    port: 3000,
+    open: true
   }
 })
